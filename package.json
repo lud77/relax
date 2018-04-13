@@ -11,5 +11,9 @@
   "dependencies": {
     "dot-prop-immutable": "^1.4.0",
     "murmur-hash-js": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.0"
   }
 }
