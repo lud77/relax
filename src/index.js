@@ -8,6 +8,10 @@ module.exports = () => {
 
     const views = [];
 
+    const initState = (newState) => {
+        state = Object.assign({}, newState);
+    };
+
     const updateView = (view) => {
         const newView = view.transform(state);
         const newHash = hash(newView);
@@ -38,7 +42,7 @@ module.exports = () => {
     };
 
     return {
-        init,
+        initState,
         set,
         del,
         createView
