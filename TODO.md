@@ -1,5 +1,5 @@
 - [ ] Add/Create README.md
-- [ ] Setup run scripts for eslint and mocha
+- [x] Setup run scripts for eslint and mocha
 - [ ] Create tests
 - [ ] Create example
 - [ ] Create documentation
