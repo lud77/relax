@@ -21,7 +21,7 @@ module.exports = () => {
         }
     };
 
-    const updateViews = () => views.map(updateView);
+    const updateViews = () => views.forEach(updateView);
 
     const createView = (transform, listener) => {
         views.push({
